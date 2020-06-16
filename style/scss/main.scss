@@ -1,0 +1,15 @@
+@import './scss-components/settings';
+@import './scss-components/variables';
+@import './scss-components/header';
+
+body {
+    background: #7c7c7c;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #ffffff;
+}

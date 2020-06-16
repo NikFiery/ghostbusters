@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 104px;
+    padding: 0 30px;
+    border-right: 1px solid #D4D4D4;
+    @include title-text;
+    text-align: center;
+    color: #5671F6;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 104px;
+    border-right: 1px solid #D4D4D4;
+}
+
+.header__search {
+
+    .header__search--btn {
+        width: 16px;
+        height: 16px;
+        margin: 0 25px;
+        padding-top: 12px; /*ПОФИКСИТЬ*/
+        background: url(../../img/zoom.png) center center no-repeat;
+        border: 0;
+        font-size: 0;
+    }
+
+    .header__search--text {
+        width: 240px;
+        height: 40px;
+        border: 0;
+        @include classic-text;
+    }
+}
+
+nav {
+    display: flex;
+    max-height: 104px;
+    margin-left: auto;
+
+    .header__nav--link {
+        width: 120px;
+        padding: 42px 0px;
+        text-align: center;
+        @include classic-text;
+    }
+
+    .header__nav--link:hover {
+        color: #ffffff;
+        background: #838383;
+        transition: 0.3s;
+        font-size: calc(17px + 0.137vw);
+        cursor: pointer;
+    }
+
+    .header__nav--link:active {
+        background: #4e4e4e;
+        transition: 0.15s;
+    }
+}
+
+.header__btns {
+    display: flex;
+    height: 104px;
+
+    .header__btns--registers {
+        padding: 0 30px;
+        background: #fff;
+        @include classic-text;
+        color: #5671F6;
+    }
+
+    .header__btns--login {
+        padding: 0 40px;
+        background: #5671F6;
+        @include classic-text;
+        color: #fff;
+    }
+}
