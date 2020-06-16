@@ -89,7 +89,7 @@ header {
   /*classic-text - main text*/
   font-weight: 400;
   font-size: calc(15px + 0.137vw);
-  color: #000000;
+  color: #363636;
 }
 
 nav {
@@ -108,7 +108,7 @@ nav .header__nav--link {
   /*classic-text - main text*/
   font-weight: 400;
   font-size: calc(15px + 0.137vw);
-  color: #000000;
+  color: #363636;
 }
 
 nav .header__nav--link:hover {
@@ -140,7 +140,7 @@ nav .header__nav--link:active {
   /*classic-text - main text*/
   font-weight: 400;
   font-size: calc(15px + 0.137vw);
-  color: #000000;
+  color: #363636;
   color: #5671F6;
 }
 
@@ -151,7 +151,7 @@ nav .header__nav--link:active {
   /*classic-text - main text*/
   font-weight: 400;
   font-size: calc(15px + 0.137vw);
-  color: #000000;
+  color: #363636;
   color: #fff;
 }
 
