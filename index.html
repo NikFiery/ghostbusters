@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/scss/main.css">
+    <link rel="stylesheet" href="./style/css/main.css">
     <title>ghostbusters</title>
 </head>
 <body>
@@ -29,124 +29,146 @@
             </div>
         </header>
         <main>
-            <section class="movie">
-                <div class="movie__left">
-                    <div class="movie__left--logo"></div>
-                    <button class="movie__left--trailer">View trailer</button>
-                </div>
-                <div class="movie__right">
-                    <h1 class="movie__right--title">Ghostbusters: Afterlife</h1>
-                    <p class="movie__right--clarification">New items</p>
-                    <span class="movie__right--text">Мать-одиночка с двумя детьми-подростками селится на старой ферме в Оклахоме, полученной в наследство от отца, которого она не знала. Дети пытаются больше узнать о своем деде и находят автомобиль Ecto-1, принадлежавший знаменитым охотникам за привидениями.</span>
-                    <div class="movie__information">
-                        <div class="movie__information--container movie__information--left">
-                            <div class="movie__position">
-                                <span class="movie__position--title">Producer</span>
-                                <span class="movie__position--text">Джейсон Райтман</span>
+            <div class="main__container">
+                <section class="movie">
+                    <div class="movie__left">
+                        <div class="movie__left--logo"></div>
+                        <button class="movie__left--trailer">View trailer</button>
+                    </div>
+                    <div class="movie__right">
+                        <h1 class="movie__right--title">Ghostbusters: Afterlife</h1>
+                        <p class="movie__right--clarification">New items</p>
+                        <span class="movie__right--text">Мать-одиночка с двумя детьми-подростками селится на старой ферме в Оклахоме, полученной в наследство от отца, которого она не знала. Дети пытаются больше узнать о своем деде и находят автомобиль Ecto-1, принадлежавший знаменитым охотникам за привидениями.</span>
+                        <div class="movie__information">
+                            <div class="movie__information--container movie__information--left">
+                                <div class="movie__position">
+                                    <span class="movie__position--title">Producer</span>
+                                    <span class="movie__position--text">Джейсон Райтман</span>
+                                </div>
+                                <div class="movie__position">
+                                    <span class="movie__position--title">Scenario</span>
+                                    <span class="movie__position--text">Дэн Эйкройд</span>
+                                </div>
+                                <div class="movie__position">
+                                    <span class="movie__position--title">Premiere</span>
+                                    <span class="movie__position--text">09.07.2020 (РФ)</span>
+                                </div>
                             </div>
-                            <div class="movie__position">
-                                <span class="movie__position--title">Scenario</span>
-                                <span class="movie__position--text">Дэн Эйкройд</span>
-                            </div>
-                            <div class="movie__position">
-                                <span class="movie__position--title">Premiere</span>
-                                <span class="movie__position--text">09.07.2020 (РФ)</span>
+                            <div class="movie__information--container movie__information--right">
+                                <div class="movie__position">
+                                    <span class="movie__position--title">Budget</span>
+                                    <span class="movie__position--text">1 000 000 $</span>
+                                </div>
+                                <div class="movie__position">
+                                    <span class="movie__position--title">Film shew</span>
+                                    <span class="movie__position--text">SPPR</span>
+                                </div>
+                                <div class="movie__position">
+                                    <span class="movie__position--title">Premiere</span>
+                                    <span class="movie__position--text">09.07.2020 (РФ)</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="movie__information--container movie__information--right">
-                            <div class="movie__position">
-                                <span class="movie__position--title">Budget</span>
-                                <span class="movie__position--text">1 000 000 $</span>
-                            </div>
-                            <div class="movie__position">
-                                <span class="movie__position--title">Film shew</span>
-                                <span class="movie__position--text">SPPR</span>
-                            </div>
-                            <div class="movie__position">
-                                <span class="movie__position--title">Premiere</span>
-                                <span class="movie__position--text">09.07.2020 (РФ)</span>
+                        <div class="movie__audience">
+                            <span class="movie__audience__percent">92%</span>
+                            <div class="movie__audience__rating">
+                                <h4>Рейтинг зрителей</h4>
+                                <span>Средняя оценка: <b>4,5/5</b></span>
+                                <span>Всего голосов: <b>4 350</b></span>
                             </div>
                         </div>
                     </div>
-                    <div class="movie__audience">
-                        <span class="movie__audience__percent">92%</span>
-                        <div class="movie__audience__rating">
-                            <h4>Рейтинг зрителей</h4>
-                            <span>Средняя оценка: <b>4,5/5</b></span>
-                            <span>Всего голосов: <b>4 350</b></span>
-                        </div>
+                </section>
+                <section class="staff">
+                    <div class="staff__btns">
+                        <button class="staff__btns--actors staff__btn">The actors</button>
+                        <button class="staff__btns--creators staff__btn">Creators</button>
                     </div>
-                </div>
-            </section>
-            <section class="staff">
-                <div class="staff__btns">
-                    <button class="staff__btns--actors staff__btn">The actors</button>
-                    <button class="staff__btns--creators staff__btn">Creators</button>
-                </div>
-                <div class="staff__actors">
-                    <div class="staff__actors--header actors__container">
-                        <div class="staff__profile">
-                            <img class="staff__profile--logo" src="./img/actors/Carrie.png" alt="avatar-person">
-                            <div class="staff__profile--nikname">
-                                <span class="staff__nikname--title">Carrie Coon</span>
-                                <span class="staff__nikname--description">Carrie Coon</span>
+                    <div class="staff__actors">
+                        <div class="staff__actors--header actors__container">
+                            <div class="staff__profile">
+                                <img class="staff__profile--logo" src="./img/actors/Carrie.png" alt="avatar-person">
+                                <div class="staff__profile--nikname">
+                                    <span class="staff__nikname--title">Carrie Coon</span>
+                                    <span class="staff__nikname--description">Carrie Coon</span>
+                                </div>
+                            </div>
+                            <div class="staff__profile">
+                                <img class="staff__profile--logo" src="./img/actors/Bill.png" alt="avatar-person">
+                                <div class="staff__profile--nikname">
+                                    <span class="staff__nikname--title">Bill Murray</span>
+                                    <span class="staff__nikname--description">Bill Murray</span>
+                                </div>
+                            </div>
+                            <div class="staff__profile">
+                                <img class="staff__profile--logo" src="./img/actors/Paul.png" alt="avatar-person">
+                                <div class="staff__profile--nikname">
+                                    <span class="staff__nikname--title">Paul Rudd</span>
+                                    <span class="staff__nikname--description">Paul Rudd</span>
+                                </div>
+                            </div>
+                            <div class="staff__profile">
+                                <img class="staff__profile--logo" src="./img/actors/Annie.png" alt="avatar-person">
+                                <div class="staff__profile--nikname">
+                                    <span class="staff__nikname--title">Annie Potts</span>
+                                    <span class="staff__nikname--description">Annie Potts</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="staff__profile">
-                            <img class="staff__profile--logo" src="./img/actors/Bill.png" alt="avatar-person">
-                            <div class="staff__profile--nikname">
-                                <span class="staff__nikname--title">Bill Murray</span>
-                                <span class="staff__nikname--description">Bill Murray</span>
+                        <div class="staff__actors--bottom actors__container">
+                            <div class="staff__profile">
+                                <img class="staff__profile--logo" src="./img/actors/Mckenna Grace.png" alt="avatar-person">
+                                <div class="staff__profile--nikname">
+                                    <span class="staff__nikname--title">Mckenna Grace</span>
+                                    <span class="staff__nikname--description">Mckenna Grace</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="staff__profile">
-                            <img class="staff__profile--logo" src="./img/actors/Paul.png" alt="avatar-person">
-                            <div class="staff__profile--nikname">
-                                <span class="staff__nikname--title">Paul Rudd</span>
-                                <span class="staff__nikname--description">Paul Rudd</span>
+                            <div class="staff__profile">
+                                <img class="staff__profile--logo" src="./img/actors/Dan Aykroyd.png" alt="avatar-person">
+                                <div class="staff__profile--nikname">
+                                    <span class="staff__nikname--title">Dan Aykroyd</span>
+                                    <span class="staff__nikname--description">Dan Aykroyd</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="staff__profile">
-                            <img class="staff__profile--logo" src="./img/actors/Annie.png" alt="avatar-person">
-                            <div class="staff__profile--nikname">
-                                <span class="staff__nikname--title">Annie Potts</span>
-                                <span class="staff__nikname--description">Annie Potts</span>
+                            <div class="staff__profile">
+                                <img class="staff__profile--logo" src="./img/actors/Ernie Hudson.png" alt="avatar-person">
+                                <div class="staff__profile--nikname">
+                                    <span class="staff__nikname--title">Ernie Hudson</span>
+                                    <span class="staff__nikname--description">Ernie Hudson</span>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="staff__actors--bottom actors__container">
-                        <div class="staff__profile">
-                            <img class="staff__profile--logo" src="./img/actors/Mckenna Grace.png" alt="avatar-person">
-                            <div class="staff__profile--nikname">
-                                <span class="staff__nikname--title">Mckenna Grace</span>
-                                <span class="staff__nikname--description">Mckenna Grace</span>
-                            </div>
-                        </div>
-                        <div class="staff__profile">
-                            <img class="staff__profile--logo" src="./img/actors/Dan Aykroyd.png" alt="avatar-person">
-                            <div class="staff__profile--nikname">
-                                <span class="staff__nikname--title">Dan Aykroyd</span>
-                                <span class="staff__nikname--description">Dan Aykroyd</span>
-                            </div>
-                        </div>
-                        <div class="staff__profile">
-                            <img class="staff__profile--logo" src="./img/actors/Ernie Hudson.png" alt="avatar-person">
-                            <div class="staff__profile--nikname">
-                                <span class="staff__nikname--title">Ernie Hudson</span>
-                                <span class="staff__nikname--description">Ernie Hudson</span>
-                            </div>
-                        </div>
-                        <div class="staff__profile">
-                            <img class="staff__profile--logo" src="./img/actors/Finn Wolfhard.png" alt="avatar-person">
-                            <div class="staff__profile--nikname">
-                                <span class="staff__nikname--title">Finn Wolfhard</span>
-                                <span class="staff__nikname--description">Finn Wolfhard</span>
+                            <div class="staff__profile">
+                                <img class="staff__profile--logo" src="./img/actors/Finn Wolfhard.png" alt="avatar-person">
+                                <div class="staff__profile--nikname">
+                                    <span class="staff__nikname--title">Finn Wolfhard</span>
+                                    <span class="staff__nikname--description">Finn Wolfhard</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="news"></section>
+                </section>
+                <section class="news">
+                    <h3 class="news__title">Related News</h3>
+                    <div class="news__cards">
+                        <div class="news__cards--card">
+                            <p class="news__card--title">31 march 2020</p>
+                            <span class="news__card--text">Morbius and Ghostbusters relocated to next year</span>
+                        </div>
+                        <div class="news__cards--card">
+                            <p class="news__card--title">9 december 2019</p>
+                            <span class="news__card--text">Heirs: The debut trailer for the new Ghostbusters is released.</span>
+                        </div>
+                        <div class="news__cards--card">
+                            <p class="news__card--title">11 november 2019</p>
+                            <span class="news__card--text">New "Ghostbusters" got the name</span>
+                        </div>
+                        <div class="news__cards--card">
+                            <p class="news__card--title">19 october 2019</p>
+                            <span class="news__card--text">The filming of the new Ghostbusters</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </main>
     </div>
 </body>

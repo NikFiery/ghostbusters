@@ -3,6 +3,7 @@
 @import './scss-components/header';
 @import './scss-components/movie';
 @import './scss-components/staff';
+@import './scss-components/news';
 
 body {
     background: #7c7c7c;
@@ -18,8 +19,14 @@ body {
 
 main {
     display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.main__container {
+    display: flex;
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-    background: #ffffff;
 }
