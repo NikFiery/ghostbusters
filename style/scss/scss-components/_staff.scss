@@ -1,0 +1,64 @@
+.staff {
+    display: flex;
+    flex-direction: column;
+}
+
+.staff__btns {
+    display: flex;
+    margin-top: 50px;
+
+    .staff__btn {
+        @include classic-text;
+        font-size: 24px;
+        background: none;
+    }
+
+    .staff__btn:hover {
+        @include title-text;
+        font-size: 24px;
+    }
+
+    .staff__btns--creators {
+        margin-left: 50px;
+    }
+}
+
+.staff__actors {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.actors__container {
+    display: flex;
+    padding: 15px 0;
+}
+
+.staff__profile {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+
+    .staff__profile--logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .staff__profile--nikname {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+
+        .staff__nikname--title {
+            font-weight: 700;
+            font-size: 16px;
+            color: #5671F6;
+        }
+
+        .staff__nikname--description {
+            @include classic-text;
+            color: #a5a5a5;
+        }
+    }
+}

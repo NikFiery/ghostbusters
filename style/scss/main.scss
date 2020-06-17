@@ -1,6 +1,8 @@
 @import './scss-components/settings';
 @import './scss-components/variables';
 @import './scss-components/header';
+@import './scss-components/movie';
+@import './scss-components/staff';
 
 body {
     background: #7c7c7c;
@@ -10,6 +12,14 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 1440px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
     margin: 0 auto;
     background: #ffffff;
 }
