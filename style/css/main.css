@@ -82,7 +82,7 @@ header {
 }
 
 .header__search .header__search--text {
-  width: 240px;
+  width: 170px;
   height: 40px;
   border: 0;
   font-family: 'Roboto', sans-serif;
@@ -156,22 +156,20 @@ nav .header__nav--link:active {
 }
 
 .movie {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   padding: 70px 0;
+  border-bottom: 1px solid #D4D4D4;
 }
 
-.movie::after {
-  position: absolute;
-  bottom: -1px;
-  left: -143px;
-  width: 125.7%;
-  /*исправлю*/
-  height: 1px;
-  background: #A5A5A5;
-  content: '';
+.movie__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .movie__left {
@@ -367,6 +365,18 @@ nav .header__nav--link:active {
           flex-direction: column;
 }
 
+.staff__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .staff__btns {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -465,7 +475,19 @@ nav .header__nav--link:active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #ffffff;
+  background: #F3F3F3;
+}
+
+.news__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .news__title {
@@ -508,7 +530,7 @@ nav .header__nav--link:active {
   margin: 0px 20px;
   padding: 20px 20px 40px 20px;
   text-align: center;
-  background: #F3F3F3;
+  background: #ffffff;
 }
 
 .news__cards--card .news__card--title {
@@ -547,20 +569,12 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  margin: 0 auto;
-  background: #ffffff;
-}
-
-.main__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  background: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
