@@ -1,7 +1,14 @@
 .news {
     display: flex;
     flex-direction: column;
-    background: #ffffff;
+    background: #F3F3F3;
+}
+
+.news__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .news__title {
@@ -27,7 +34,7 @@
     margin: 0px 20px;
     padding: 20px 20px 40px 20px;
     text-align: center;
-    background: #F3F3F3;
+    background: #ffffff;
 
     .news__card--title {
         margin-bottom: 15px;

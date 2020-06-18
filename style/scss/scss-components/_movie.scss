@@ -1,17 +1,14 @@
 .movie {
-    position: relative;
     display: flex;
+    width: 100%;
     padding: 70px 0;
+    border-bottom: 1px solid #D4D4D4;
 }
 
-.movie::after {
-    position: absolute;
-    bottom: -1px;
-    left: -143px;
-    width: 125.7%; /*исправлю*/
-    height: 1px;
-    background: #A5A5A5;
-    content: '';
+.movie__container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .movie__left {
