@@ -505,6 +505,7 @@ nav .header__nav--link:active {
           align-items: center;
   width: 260px;
   height: 160px;
+  margin: 0px 20px;
   padding: 20px 20px 40px 20px;
   text-align: center;
   background: #F3F3F3;
