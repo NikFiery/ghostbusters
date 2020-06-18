@@ -560,7 +560,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-width: 100%px;
+  width: 1440px;
   margin: 0 auto;
   background: #ffffff;
 }
