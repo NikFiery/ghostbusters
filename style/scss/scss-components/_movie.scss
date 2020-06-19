@@ -3,6 +3,7 @@
     width: 100%;
     padding: 70px 0;
     border-bottom: 1px solid #D4D4D4;
+    background-image: linear-gradient(to top right, rgb(221, 29, 235), rgb(178, 29, 193), rgb(135, 30, 152), rgb(91, 30, 110), rgb(48, 31, 69), rgb(5, 31, 27), rgb(13, 62, 55), rgb(21, 92, 83), rgb(30, 123, 111), rgb(38, 153, 139), rgb(46, 184, 167), rgb(54, 214, 195));
 }
 
 .movie__container {
@@ -14,6 +15,7 @@
 .movie__left {
     display: flex;
     flex-direction: column;
+    background-image: radial-gradient(rgb(0, 0, 0), rgb(1, 4, 4), rgb(1, 8, 7), rgb(2, 13, 11), rgb(2, 17, 15), rgb(3, 21, 18), rgb(3, 25, 22), rgb(4, 29, 25), rgb(4, 33, 29), rgb(5, 38, 33), rgb(5, 42, 36), rgb(6, 46, 40));
 }
 
 .movie__left--logo {
@@ -34,7 +36,7 @@
 
 .movie__left--trailer::before {
     position: absolute;
-    top: 18px;
+    top: 16px;
     left: 100px;
     width: 25px;
     height: 25px;
@@ -52,7 +54,7 @@
 
     .movie__right--title {
         @include title-text;
-        color: #363636;
+        color: #ebe;
     }
 
     .movie__right--clarification {
@@ -64,6 +66,7 @@
         @include classic-text;
         line-height: 1.5em;
         font-size: calc(11px + 0.437vw);
+        color: #ebebeb;
     }
 
     .movie__information {
@@ -89,9 +92,13 @@
             color: #363636;
         }
 
+        .movie__position--title {
+            color: #ebe;
+        }
         .movie__position--text {
             @include classic-text;
             margin-left: 1em;
+            color: #ebebeb
         }
     }
 
@@ -113,6 +120,7 @@
             flex-direction: column;
             margin-left: 20px;
             @include classic-text;
+            color: #ebebeb;
 
             h4 {
                 padding:  5px 0;
