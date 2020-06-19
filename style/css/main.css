@@ -163,6 +163,8 @@ nav .header__nav--link:active {
   width: 100%;
   padding: 70px 0;
   border-bottom: 1px solid #D4D4D4;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#dd1deb), color-stop(#b21dc1), color-stop(#871e98), color-stop(#5b1e6e), color-stop(#301f45), color-stop(#051f1b), color-stop(#0d3e37), color-stop(#155c53), color-stop(#1e7b6f), color-stop(#26998b), color-stop(#2eb8a7), to(#36d6c3));
+  background-image: linear-gradient(to top right, #dd1deb, #b21dc1, #871e98, #5b1e6e, #301f45, #051f1b, #0d3e37, #155c53, #1e7b6f, #26998b, #2eb8a7, #36d6c3);
 }
 
 .movie__container {
@@ -181,6 +183,7 @@ nav .header__nav--link:active {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-image: radial-gradient(black, #010404, #010807, #020d0b, #02110f, #031512, #031916, #041d19, #04211d, #052621, #052a24, #062e28);
 }
 
 .movie__left--logo {
@@ -205,7 +208,7 @@ nav .header__nav--link:active {
 
 .movie__left--trailer::before {
   position: absolute;
-  top: 18px;
+  top: 16px;
   left: 100px;
   width: 25px;
   height: 25px;
@@ -235,7 +238,7 @@ nav .header__nav--link:active {
   font-weight: 900;
   font-size: calc(12px + 1.5vw);
   color: #000000;
-  color: #363636;
+  color: #ebe;
 }
 
 .movie__right .movie__right--clarification {
@@ -255,6 +258,7 @@ nav .header__nav--link:active {
   color: #363636;
   line-height: 1.5em;
   font-size: calc(11px + 0.437vw);
+  color: #ebebeb;
 }
 
 .movie__right .movie__information {
@@ -301,6 +305,10 @@ nav .header__nav--link:active {
   color: #363636;
 }
 
+.movie__right .movie__information .movie__position--title {
+  color: #ebe;
+}
+
 .movie__right .movie__information .movie__position--text {
   font-family: 'Roboto', sans-serif;
   /*classic-text - main text*/
@@ -308,6 +316,7 @@ nav .header__nav--link:active {
   font-size: calc(11px + 0.237vw);
   color: #363636;
   margin-left: 1em;
+  color: #ebebeb;
 }
 
 .movie__right .movie__audience {
@@ -346,6 +355,7 @@ nav .header__nav--link:active {
   font-weight: 400;
   font-size: calc(11px + 0.237vw);
   color: #363636;
+  color: #ebebeb;
 }
 
 .movie__right .movie__audience .movie__audience__rating h4 {
@@ -379,6 +389,7 @@ nav .header__nav--link:active {
 }
 
 .staff__btns {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -534,6 +545,7 @@ nav .header__nav--link:active {
   padding: 20px 10px 40px 10px;
   text-align: center;
   background: #ffffff;
+  border-radius: 10%;
 }
 
 .news__cards--card .news__card--title {
