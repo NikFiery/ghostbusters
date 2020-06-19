@@ -52,20 +52,18 @@
 
     .movie__right--title {
         @include title-text;
-        font-size: 36px;
         color: #363636;
     }
 
     .movie__right--clarification {
         @include classic-text;
-        font-size: 18px; /* пофиксить*/
         color: #A5A5A5;
     }
 
     .movie__right--text {
         @include classic-text;
-        font-size: 14px; /* пофиксить*/
-        line-height: 23px;
+        line-height: 1.5em;
+        font-size: calc(11px + 0.437vw);
     }
 
     .movie__information {
@@ -83,15 +81,17 @@
         }
 
         .movie__information--container {
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
             @include classic-text;
             font-weight: 700;
             color: #363636;
-            margin: 10px 0;
         }
 
         .movie__position--text {
             @include classic-text;
-            margin-left: 30px;
+            margin-left: 1em;
         }
     }
 
@@ -105,7 +105,6 @@
             border: 1px solid #5671F6;
             border-radius: 12px;
             @include title-text;
-            font-size: 28px;
             color: #5671F6;
         }
 
@@ -114,7 +113,6 @@
             flex-direction: column;
             margin-left: 20px;
             @include classic-text;
-            font-size: 18px; /* пофиксить*/
 
             h4 {
                 padding:  5px 0;

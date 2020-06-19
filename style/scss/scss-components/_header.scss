@@ -19,6 +19,10 @@ header {
     color: #5671F6;
 }
 
+.header__burger {
+    display: none;
+}
+
 .header__navigation {
     display: flex;
     align-items: center;
@@ -40,7 +44,7 @@ header {
     }
 
     .header__search--text {
-        width: 170px;
+        width: 9em;
         height: 40px;
         border: 0;
         @include classic-text;
@@ -53,8 +57,8 @@ nav {
     margin-left: auto;
 
     .header__nav--link {
-        width: 120px;
-        padding: 42px 0px;
+        width: 7em;
+        padding: 42px 1em;
         text-align: center;
         @include classic-text;
     }
@@ -63,7 +67,6 @@ nav {
         color: #ffffff;
         background: #838383;
         transition: 0.3s;
-        font-size: calc(17px + 0.137vw);
         cursor: pointer;
     }
 
@@ -78,16 +81,18 @@ nav {
     height: 104px;
 
     .header__btns--registers {
-        padding: 0 30px;
+        padding: 0 10px;
         background: #fff;
         @include classic-text;
+        font-size: calc(10px + 0.237vw);
         color: #5671F6;
     }
 
     .header__btns--login {
-        padding: 0 40px;
+        padding: 0 1.8em;
         background: #5671F6;
         @include classic-text;
+        font-size: calc(10px + 0.237vw);
         color: #fff;
     }
 }

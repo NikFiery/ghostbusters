@@ -6,7 +6,8 @@
 @import './scss-components/news';
 
 body {
-    background: #7c7c7c;
+   min-height: 100vh;
+   background-image: radial-gradient(rgb(128, 128, 128), rgb(116, 116, 116), rgb(105, 105, 105), rgb(93, 93, 93), rgb(81, 81, 81), rgb(70, 70, 70), rgb(58, 58, 58), rgb(47, 47, 47), rgb(35, 35, 35), rgb(23, 23, 23), rgb(12, 12, 12), rgb(0, 0, 0));
 }
 
 .wrapper {

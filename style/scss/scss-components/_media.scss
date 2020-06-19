@@ -1,27 +1,205 @@
-@media (max-width: 1130px) {
-
-    .header__nav--link {
-        width: 110px;
+@media (max-width: 992px) {
+    .section__container {
+        width: 90%;
+    }
+    .staff__profile {
+        flex-direction: column;
     }
 
-   .header__search--btn {
-       margin: 0 10px;
-   }
+    .staff__profile .staff__profile--nikname {
+        margin: 10px 0 0 0;
+    }
 
-    .header__btns--registers {
-        padding: 0 80px;
+    .header__logo {
+        width: auto;
+        padding: 0 0.5em;
+    }
+
+    .header__search .header__search--btn {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 720px) {
+    header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .header__logo {
+        border: none;
+        font-size: calc(12px + 4vw);
+    }
+
+    .header__navigation {
+        justify-content: flex-end;
+        border: none;
+    }
+
+    .header__burger {
+        position: relative;
+        display: block;
+        width: 40px;
+        height: 5px;
         background: #000000;
     }
 
-    .header__btns--login {
-        padding: 0 20px;
+    .header__burger::before {
+        position: absolute;
+        top: -12px;
+        left: 0px;
+        width: 33px;
+        height: 5px;
+        background: #000000;
+        content: '';
     }
 
-}
+    .header__burger::after {
+        position: absolute;
+        top: 12px;
+        left: 0px;
+        width: 33px;
+        height: 5px;
+        background: #000000;
+        content: '';
+    }
 
-@media (max-width: 1024px) {
+    nav {
+        display: none;
+    }
 
-    .header__btns--registers {
-        padding: 0 10px;
+    .header__btns {
+        display: none;
+    }
+
+    .section__container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .news__container.section__container {
+        overflow: scroll;
+    }
+
+    .staff__profile {
+        margin: 0 15px;
+    }
+
+    .movie__right {
+        width: auto;
+        margin: 0;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .movie__left--logo {
+        width: 360px;
+        border: 1px solid;
+    }
+
+    .movie__left--trailer::before {
+        top: 15px;
+        left: 80px;
+    }
+
+    .news__cards {
+        position: relative;
+    }
+
+    .news__cards--card {
+        width: 193px;
+    }
+
+    .news__cards::before {
+        position: absolute;
+        top: 72px;
+        left: 456px;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 24px solid #000000;
+        content: '';
+    }
+
+    .news__cards::after {
+        position: absolute;
+        top: 72px;
+        left: 691px;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        border-left: 24px solid #000000;
+        content: '';
     }
 }
+
+@media (max-width: 576px) {
+    .movie__left--logo {
+        width: 293px;
+        border: 1px solid;
+    }
+
+    .actors__container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .staff__profile {
+        flex-direction: row;
+        margin: 20px 0;
+    }
+
+    .staff__profile .staff__profile--nikname {
+        margin: 0px 0 0 23px;
+
+        .staff__nikname--title {
+            font-size: calc(11px + 4.4vw);
+        }
+
+        .staff__nikname--description {
+            font-size: calc(11px + 3.237vw);
+        }
+    }
+
+    .movie__right {
+
+        .movie__right--title {
+            margin: 11px 0;
+            font-size: calc(12px + 4vw);
+        }
+
+        .movie__right--clarification {
+            font-size: calc(11px + 3.237vw);
+        }
+
+        .movie__right--text {
+            margin: 20px 0;
+            font-size: calc(11px + 2.237vw);
+        }
+    }
+
+    .movie__right .movie__information {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .movie__information--container {
+            margin: 0;
+        }
+
+        .movie__position--text {
+            font-size: calc(11px + 2.237vw);
+        }
+    }
+
+    .movie__position--title {
+        font-size: calc(11px + 2.237vw);
+    }
+
+    .movie__right .movie__audience .movie__audience__rating {
+        font-size: calc(11px + 2vw);
+    }
+
+    .movie__right .movie__audience {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 320px) {}
