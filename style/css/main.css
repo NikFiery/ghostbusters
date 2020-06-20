@@ -1,9 +1,12 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -75,7 +78,6 @@ header {
   height: 16px;
   margin: 0 25px;
   padding-top: 12px;
-  /*ПОФИКСИТЬ*/
   background: url(../../img/zoom.png) center center no-repeat;
   border: 0;
   font-size: 0;
@@ -113,9 +115,10 @@ nav .header__nav--link {
 
 nav .header__nav--link:hover {
   color: #ffffff;
-  background: #838383;
+  background: #a7a7a7;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border-radius: 15%;
   cursor: pointer;
 }
 
@@ -144,9 +147,27 @@ nav .header__nav--link:active {
   color: #5671F6;
 }
 
+.header__btns .header__btns--registers:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 .header__btns .header__btns--login {
   padding: 0 1.8em;
   background: #5671F6;
+  font-family: 'Roboto', sans-serif;
+  /*classic-text - main text*/
+  font-weight: 400;
+  font-size: calc(11px + 0.237vw);
+  color: #363636;
+  font-size: calc(10px + 0.237vw);
+  color: #fff;
+}
+
+.header__btns .header__btns--login:hover {
+  padding: 0 1.8em;
+  background: #4256b9;
   font-family: 'Roboto', sans-serif;
   /*classic-text - main text*/
   font-weight: 400;

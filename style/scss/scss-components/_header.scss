@@ -36,7 +36,7 @@ header {
         width: 16px;
         height: 16px;
         margin: 0 25px;
-        padding-top: 12px; /*ПОФИКСИТЬ*/
+        padding-top: 12px;
         background: url(../../img/zoom.png) center center no-repeat;
         border: 0;
         font-size: 0;
@@ -64,8 +64,9 @@ nav {
 
     .header__nav--link:hover {
         color: #ffffff;
-        background: #838383;
+        background: #a7a7a7;
         transition: 0.3s;
+        border-radius: 15%;
         cursor: pointer;
     }
 
@@ -87,9 +88,22 @@ nav {
         color: #5671F6;
     }
 
+    .header__btns--registers:hover {
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
     .header__btns--login {
         padding: 0 1.8em;
         background: #5671F6;
+        @include classic-text;
+        font-size: calc(10px + 0.237vw);
+        color: #fff;
+    }
+
+    .header__btns--login:hover {
+        padding: 0 1.8em;
+        background: #4256b9;
         @include classic-text;
         font-size: calc(10px + 0.237vw);
         color: #fff;
